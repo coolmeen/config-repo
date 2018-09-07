@@ -1,7 +1,7 @@
 message : hello
 spring:
   kafka:
-    properties:
+
     consumer:
       auto-offset-reset: earliest
       group-id: routerGroup
