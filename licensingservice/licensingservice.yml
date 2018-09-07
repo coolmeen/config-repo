@@ -1,4 +1,4 @@
-example.property: dsds"
+example.property: dsds1234"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
