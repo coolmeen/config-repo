@@ -1,0 +1,12 @@
+message : dev
+spring:
+  kafka:
+
+    consumer:
+      auto-offset-reset: earliest
+      group-id: 1234
+      enable-auto-commit: false
+    listener:
+      #Note: To actually utilize the number of threads set below, we need at least this number of partitions. We can either
+      #set the number of partitions manually, or let kafka dynamically add partitions (and we'll have concurrency only when required)
+      concurrency: 2
