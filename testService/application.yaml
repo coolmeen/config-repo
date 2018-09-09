@@ -1,4 +1,4 @@
-message : hello
+message : hello123
 spring:
   kafka:
 
