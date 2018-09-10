@@ -1,2 +1,3 @@
 message : testService
 message2 : testService
+default-message : default
